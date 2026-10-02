@@ -142,4 +142,3 @@ python predict.py path/to/your_image.png --model path/to/model.pth
 - `data/predict/cat.png`、`data/predict/dog.png`：单张预测示例图片
 
 训练日志包含 loss 与 accuracy 标量，但项目未保存可直接引用的汇总报告，因此 README 不虚构具体准确率。
-
