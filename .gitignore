@@ -1,0 +1,57 @@
+# IDE
+.idea/
+.vscode/
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments / Conda
+.venv/
+venv/
+env/
+ENV/
+conda-env/
+.conda/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Kaggle raw datasets and archives
+data/raw/*
+!data/raw/sample_submission.csv
+data/**/*.zip
+data/**/*.7z
+data/**/*.tar
+data/**/*.tar.gz
+
+# Training logs
+logs/
+runs/
+
+# Generated outputs (keep the verified Kaggle submission)
+outputs/*
+!outputs/submission.csv
+
+# Model weights (keep only the final demo checkpoint)
+*.pt
+*.pth
+!checkpoints/best_model.pth
+
+# Temporary files
+*.tmp
+*.temp
+*.log
